@@ -84,14 +84,14 @@
     &END CELL
     
     &KIND B
-      BASIS_SET ORB aug-SZV-MOLOPT-GTH-tier-2
-      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-tier-2_N_RI_014_s_p_d_f_g_h_i_3_2_1_0_0_0_0_error_1.9e-05
+      BASIS_SET ORB aug-DZVP-MOLOPT-GTH-tier-2
+      BASIS_SET RI_AUX RI_aug-DZVP-MOLOPT-GTH-tier-2_N_RI_030_s_p_d_f_g_h_i_4_3_2_1_0_0_0_error_4.3e-05
       POTENTIAL        GTH-PBE-q3
     &END KIND
 
     &KIND N
-      BASIS_SET ORB aug-SZV-MOLOPT-GTH-tier-2
-      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-tier-2_N_RI_033_s_p_d_f_g_h_i_7_3_2_1_0_0_0_error_6.2e-05
+      BASIS_SET ORB aug-DZVP-MOLOPT-GTH-tier-2
+      BASIS_SET RI_AUX RI_aug-DZVP-MOLOPT-GTH-tier-2_N_RI_044_s_p_d_f_g_h_i_4_3_3_1_1_0_0_error_6.4e-05 
       POTENTIAL        GTH-PBE-q5
     &END KIND
 
