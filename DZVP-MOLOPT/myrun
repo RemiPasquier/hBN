@@ -1,14 +1,14 @@
 #!/bin/bash
 #SBATCH -t 24:00:00
-#SBATCH --ntasks-per-node=16
-#SBATCH -c 8
-#SBATCH -N 8
+#SBATCH --ntasks-per-node=64
+#SBATCH -c 2
+#SBATCH -N 4
 #SBATCH -J hBN_test
-#SBATCH --account=hpc-prf-coopfst
-#SBATCH -p normal
+#SBATCH --account=hpc-prf-rqsued
+#SBATCH -p largemem
 ##SBATCH -q express
 
-export OMP_NUM_THREADS=8
+export OMP_NUM_THREADS=2
 export OMP_PLACES=cores
 export OMP_PROC_BIND=true
 
