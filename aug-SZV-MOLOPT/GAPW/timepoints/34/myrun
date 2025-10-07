@@ -2,7 +2,7 @@
 #SBATCH -t 72:00:00
 #SBATCH --ntasks-per-node=32
 #SBATCH -c 4
-#SBATCH -N 8
+#SBATCH -N 4
 #SBATCH -J hBN_test_t34
 #SBATCH --account=hpc-prf-coopfst
 #SBATCH -p largemem
