@@ -2272,3 +2272,482 @@
  Computed χ^R(iτ) for time point           30 / 30,      Execution time   18.0 s
  Computed V_PQ(k),                                       Execution time 5013.9 s
  
+ Computed W_PQ(k,iω) for all k and τ,                    Execution time 7309.1 s
+ 
+ Computed Σ^x,                                           Execution time  457.0 s
+ 
+ Computed Σ^c(iτ) for time point            1 / 30,      Execution time  309.0 s
+ Computed Σ^c(iτ) for time point            2 / 30,      Execution time  216.1 s
+ Computed Σ^c(iτ) for time point            3 / 30,      Execution time  194.1 s
+ Computed Σ^c(iτ) for time point            4 / 30,      Execution time  186.3 s
+ Computed Σ^c(iτ) for time point            5 / 30,      Execution time  182.1 s
+ Computed Σ^c(iτ) for time point            6 / 30,      Execution time  183.5 s
+ Computed Σ^c(iτ) for time point            7 / 30,      Execution time  178.4 s
+ Computed Σ^c(iτ) for time point            8 / 30,      Execution time  176.1 s
+ Computed Σ^c(iτ) for time point            9 / 30,      Execution time  172.9 s
+ Computed Σ^c(iτ) for time point           10 / 30,      Execution time  167.2 s
+ Computed Σ^c(iτ) for time point           11 / 30,      Execution time  163.8 s
+ Computed Σ^c(iτ) for time point           12 / 30,      Execution time  155.6 s
+ Computed Σ^c(iτ) for time point           13 / 30,      Execution time  151.0 s
+ Computed Σ^c(iτ) for time point           14 / 30,      Execution time  147.4 s
+ Computed Σ^c(iτ) for time point           15 / 30,      Execution time  144.2 s
+ Computed Σ^c(iτ) for time point           16 / 30,      Execution time  138.4 s
+ Computed Σ^c(iτ) for time point           17 / 30,      Execution time  132.3 s
+ Computed Σ^c(iτ) for time point           18 / 30,      Execution time  118.5 s
+ Computed Σ^c(iτ) for time point           19 / 30,      Execution time  104.4 s
+ Computed Σ^c(iτ) for time point           20 / 30,      Execution time   75.1 s
+ Computed Σ^c(iτ) for time point           21 / 30,      Execution time   25.9 s
+ Computed Σ^c(iτ) for time point           22 / 30,      Execution time   24.1 s
+ Computed Σ^c(iτ) for time point           23 / 30,      Execution time   23.1 s
+ Computed Σ^c(iτ) for time point           24 / 30,      Execution time   22.2 s
+ Computed Σ^c(iτ) for time point           25 / 30,      Execution time   22.2 s
+ Computed Σ^c(iτ) for time point           26 / 30,      Execution time   22.2 s
+ Computed Σ^c(iτ) for time point           27 / 30,      Execution time   22.4 s
+ Computed Σ^c(iτ) for time point           28 / 30,      Execution time   22.3 s
+ Computed Σ^c(iτ) for time point           29 / 30,      Execution time   22.2 s
+ Computed Σ^c(iτ) for time point           30 / 30,      Execution time   22.2 s
+
+ 
+ SCF valence band maximum (eV):                                           -3.666
+ SCF conduction band minimum (eV):                                         1.004
+ SCF indirect band gap (eV):                                               4.671
+ SCF direct band gap (eV):                                                 4.671
+ 
+ G0W0 valence band maximum (eV):                                          -4.416
+ G0W0 conduction band minimum (eV):                                        2.901
+ G0W0 indirect band gap (eV):                                              7.317
+ G0W0 direct band gap (eV):                                                7.317
+ 
+ Hartree-Fock with SCF orbitals valence band maximum (eV):                -6.711
+ Hartree-Fock with SCF orbitals conduction band minimum (eV)               6.357
+ Hartree-Fock with SCF orbitals indirect band gap (eV):                   13.068
+ Hartree-Fock with SCF orbitals direct band gap (eV):                     13.177
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy [hartree]            -12.867019535218191
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBCSR STATISTICS                             -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ COUNTER                                    TOTAL       BLAS       SMM       ACC
+ flops inhomo. stacks                           0       0.0%      0.0%      0.0%
+ flops total                         0.000000E+00       0.0%      0.0%      0.0%
+ flops max/rank                      0.000000E+00       0.0%      0.0%      0.0%
+ matmuls inhomo. stacks                         0       0.0%      0.0%      0.0%
+ matmuls total                                  0       0.0%      0.0%      0.0%
+ number of processed stacks                     0       0.0%      0.0%      0.0%
+ average stack size                                     0.0       0.0       0.0
+ marketing flops                     0.000000E+00
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                      DBCSR MESSAGE PASSING PERFORMANCE                      -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Bcast                1                     12.
+ MP_Allreduce           19                     21.
+ MP_Alltoall      16998737                 175620.
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBM STATISTICS                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+    M  x    N  x    K                                          COUNT     PERCENT
+   ??  x   ??  x  ???                                     2141346495      13.76%
+  ???  x   ??  x   ??                                     5673475443      36.45%
+    ?  x    ?  x    ?                                     7751720024      49.80%
+ -------------------------------------------------------------------------------
+ Memory consumption                Number of allocations  Used [MiB]  Size [MiB]
+ Host                                             161840       15932       20819
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                GRID STATISTICS                              -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ LP    KERNEL             BACKEND                              COUNT     PERCENT
+ 4     integrate general  CPU                                 655680      50.36%
+ 4     collocate general  CPU                                 644752      49.52%
+ 0     collocate general  CPU                                   1024       0.08%
+ 0     integrate general  CPU                                    512       0.04%
+ -------------------------------------------------------------------------------
+
+ MEMORY| Estimated peak process memory [MiB]                               22737
+
+ -------------------------------------------------------------------------------
+ ----                             MULTIGRID INFO                            ----
+ -------------------------------------------------------------------------------
+ count for grid        1:         959179          cutoff [a.u.]          500.00
+ count for grid        2:         838944          cutoff [a.u.]          166.67
+ count for grid        3:         944092          cutoff [a.u.]           55.56
+ count for grid        4:         448166          cutoff [a.u.]           18.52
+ total gridlevel count  :        3190381
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                         MESSAGE PASSING PERFORMANCE                         -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Group         40793253
+ MP_Bcast         30289489                    544.
+ MP_Allreduce     74337089                   2665.
+ MP_Sync          67878336
+ MP_Alltoall      31140062                    970.
+ MP_SendRecv         90270                   2336.
+ MP_ISendRecv        91800                   2336.
+ MP_Wait           5180451
+ MP_comm_split    25434770
+ MP_ISend        119997320                   2368.
+ MP_IRecv         15938076                   2594.
+ -------------------------------------------------------------------------------
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                           R E F E R E N C E S                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ 
+ CP2K version 2025.2 (Development Version), the CP2K developers group (2025).
+ CP2K is freely available from https://www.cp2k.org/ .
+ 
+ M. Graml, K. Zollner, D. Hernangómez-Pérez, P. E. Faria Junior, J. Wilhelm.
+ J. Chem. Theory Comput. 20, 2202-2208 (2024).
+ Low-scaling GW algorithm applied to twisted transition-metal dichalcogenide 
+ heterobilayers.
+ https://doi.org/10.1021/acs.jctc.3c01230
+
+ T. D. Kuehne, M. Iannuzzi, M. Del Ben, V. V. Rybkin, P. Seewald, F. Stein, T. 
+ Laino, R. Z. Khaliullin, O. Schuett, F. Schiffmann, D. Golze, J. Wilhelm, S. 
+ Chulkov, M. H. Bani-Hashemian, V. Weber, U. Borstnik, M. Taillefumier, A. S. 
+ Jakobovits, A. Lazzaro, H. Pabst, T. Mueller, R. Schade, M. Guidon, S. 
+ Andermatt, N. Holmberg, G. K. Schenter, A. Hehn, A. Bussy, F. Belleflamme, G. 
+ Tabacchi, A. Gloess, M. Lass, I. Bethune, C. J. Mundy, C. Plessl, M. Watkins, 
+ J. VandeVondele, M. Krack, J. Hutter.
+ J. Chem. Phys. 152, 194103 (2020).
+ CP2K: An electronic structure and molecular dynamics software package - 
+ Quickstep: Efficient and accurate electronic structure calculations.
+ https://doi.org/10.1063/5.0007045
+
+ A. Togo, I. Tanaka.
+ arXiv, 1808.01590 (2018).
+ Spglib : a software library for crystal symmetry search.
+
+ O. Schuett, P. Messmer, J. Hutter, J. VandeVondele.
+ Electronic Structure Calculations on Graphics Processing Units, 173-190 (2016).
+ GPU-Accelerated Sparse Matrix-Matrix Multiplication for Linear Scaling Density 
+ Functional Theory.
+ https://doi.org/10.1002/9781118670712.ch8
+
+ A. Heinecke, G. Henry, M. Hutchinson, H. Pabst.
+ Proceedings of Intl. Supercomputing Conference, 981-991 (2016).
+ LIBXSMM: Accelerating Small Matrix Multiplications by Runtime Code Generation.
+ https://doi.org/10.1109/SC.2016.83
+
+ J. Hutter, M. Iannuzzi, F. Schiffmann, J. VandeVondele.
+ WIREs Comput Mol Sci. 4, 15-25 (2014).
+ CP2K: atomistic simulations of condensed matter systems.
+ https://doi.org/10.1002/wcms.1159
+
+ U. Borstnik, J. VandeVondele, V. Weber, J. Hutter.
+ Parallel Comput. 40, 47-58 (2014).
+ Sparse matrix multiplication: The distributed block-compressed sparse row 
+ library.
+ https://doi.org/10.1016/j.parco.2014.03.012
+
+ A. Marek, V. Blum, R. Johanni, V. Havu, B. Lang, T. Auckenthaler, A. Heinecke, 
+ H. Bungartz, H. Lederer.
+ J. Phys. Condens. Matter 26, 213201 (2014).
+ The ELPA library: scalable parallel eigenvalue solutions for electronic 
+ structure theory and computational science.
+ https://doi.org/10.1088/0953-8984/26/21/213201
+
+ J. VandeVondele, J. Hutter.
+ J. Chem. Phys. 127, 114105 (2007).
+ Gaussian basis sets for accurate calculations on molecular systems in gas and 
+ condensed phases.
+ https://doi.org/10.1063/1.2770708
+
+ J. VandeVondele, M. Krack, F. Mohamed, M. Parrinello, T. Chassaing, J. Hutter.
+ Comput. Phys. Commun. 167, 103-128 (2005).
+ QUICKSTEP: Fast and accurate density functional calculations using a mixed 
+ Gaussian and plane waves approach.
+ https://doi.org/10.1016/j.cpc.2004.12.014
+
+ M. Krack.
+ Theor. Chem. Acc. 114, 145-152 (2005).
+ Pseudopotentials for H to Kr optimized for gradient-corrected 
+ exchange-correlation functionals.
+ https://doi.org/10.1007/s00214-005-0655-y
+
+ M. Frigo, S. G. Johnson.
+ Proc. IEEE 93, 216-231 (2005).
+ The design and implementation of FFTW3.
+ https://doi.org/10.1109/JPROC.2004.840301
+
+ C. Hartwigsen, S. Goedecker, J. Hutter.
+ Phys. Rev. B 58, 3641-3662 (1998).
+ Relativistic separable dual-space Gaussian pseudopotentials from H to Rn.
+ https://doi.org/10.1103/PhysRevB.58.3641
+
+ G. Lippert, J. Hutter, M. Parrinello.
+ Mol. Phys. 92, 477-487 (1997).
+ A hybrid Gaussian and plane wave density functional scheme.
+ https://doi.org/10.1080/002689797170220
+
+ S. Goedecker, M. Teter, J. Hutter.
+ Phys. Rev. B 54, 1703-1710 (1996).
+ Separable dual-space Gaussian pseudopotentials.
+ https://doi.org/10.1103/PhysRevB.54.1703
+
+ J. P. Perdew, K. Burke, M. Ernzerhof.
+ Phys. Rev. Lett. 77, 3865-3868 (1996).
+ Generalized gradient approximation made simple.
+ https://doi.org/10.1103/PhysRevLett.77.3865
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                T I M I N G                                  -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+ CP2K                                 1  1.0     0.08     0.32 24919.41 24920.24
+ qs_energies                          1  2.0     0.00     0.01 24720.88 24721.71
+ qs_energies_properties               1  3.0     0.00     0.00 23915.79 23916.59
+ post_scf_bandstructure               1  4.0     0.00     0.00 23915.79 23916.59
+ gw                                   1  5.0     0.00     0.00 23869.98 23870.77
+ gw_calc_small_cell_full_kp           1  6.0     0.00     0.00 23789.29 23790.09
+ compute_W_real_space                 1  7.0     5.15     5.40 12323.42 12323.83
+ dbt_total                      *******  9.6    23.32    26.77  5895.60  7351.59
+ dbt_contract                   6784545 10.4    45.93    52.30  5503.51  6922.18
+ compute_chi                          1  7.0     0.05     0.34  6870.48  6870.75
+ fm_to_local_array                  934  8.1    55.59    56.78  6803.59  6804.16
+ mp_sum_dm3                        1112  8.9  6788.20  6789.83  6788.20  6789.83
+ dbt_tas_multiply               8766482 12.9     6.81     8.19  5173.60  6600.75
+ dbt_tas_total                  8766482 13.9   249.71   292.14  5169.30  6596.12
+ compute_Minv_and_Vsqrt               1  8.0     0.04     0.05  5013.86  5014.04
+ build_2c_coulomb_matrix_kp_sma       2  9.0     8.63    33.73  4998.32  4998.49
+ build_2c_coulomb_matrix_kp_sma 1474560 10.0  4279.30  4344.86  4279.30  4344.86
+ compute_Sigma_c                      1  7.0     0.00     0.00  3532.91  3533.37
+ dbt_tas_estimate_result_nze    4383241 13.4   151.27   177.53  2650.64  3531.01
+ mp_sync                        ******* 12.6  2124.32  3211.67  2124.32  3211.67
+ G_times_3c                       21284  8.0    14.59    17.61  2395.37  2915.28
+ G_occ_vir                          121  8.0     0.64     0.73  2132.01  2137.93
+ dbcsr_complete_redistribute    1438146  9.3    28.46    46.64  1912.70  2131.72
+ contract_M_occ_vir_to_chi           73  8.0    43.26    51.28  1102.10  1969.43
+ mp_alltoall_i22                2824489  9.7  1599.74  1867.20  1599.74  1867.20
+ contract_to_Sigma                  134  8.0    29.44    32.42  1502.40  1724.21
+ fm_to_local_tensor              335768  9.0     5.32     6.04  1669.54  1670.22
+ dbt_tas_dbm                    8766482 14.9     6.34     7.26  1153.80  1540.03
+ dbm_multiply                   8766482 16.9  1140.24  1524.67  1140.24  1524.67
+ copy_fm_to_dbcsr                605651  9.1     1.30     1.40  1262.67  1470.85
+ global_matrix_to_local_matrix   335768 10.0     4.94     8.04   423.80  1355.63
+ send_data                       335768 11.0     0.22     0.26   253.07  1209.83
+ communicate_buffer              335768 12.0     1.87    39.49   252.85  1209.58
+ contract_W                          70  8.0    10.62    11.65  1099.06  1191.49
+ dbm_reserve_blocks             ******* 16.6   824.22  1177.13   824.22  1177.13
+ convert_to_new_pgrid           ******* 14.9    34.88    41.52   818.66  1167.54
+ reshape_mm_small               8766482 14.9   462.66   539.80   970.33  1140.79
+ dbm_copy                       ******* 15.9   783.79  1128.77   783.79  1128.77
+ mp_waitall_1                   4690689 10.5   251.60  1108.25   251.60  1108.25
+ contract_to_Sigma_3c_x_G       1660650  9.0     1.99     2.23   960.48  1031.04
+ copy_dbcsr_to_fm                832495  7.8     4.38     4.74   922.42   983.75
+ dbt_tas_reserve_blocks_index   ******* 15.8    17.49    20.53   620.33   891.66
+ parallel_gemm_cfm               592640  9.0     0.40     0.53   828.67   844.17
+ parallel_gemm_cfm_cosma         592640 10.0   828.27   843.80   828.27   843.80
+ scf_env_do_scf                       1  3.0     0.00     0.00   804.16   804.19
+ scf_env_do_scf_inner_loop          117  4.0     0.02     0.02   804.16   804.19
+ qs_scf_new_mos_kp                  117  5.0     0.00     0.00   779.65   779.97
+ do_general_diag_kp                 117  6.0     1.26     1.33   779.65   779.97
+ contract_to_Sigma_contract       19304  9.0    12.53    13.58   497.97   681.31
+ dbt_tas_mm_1N                  2110964 15.5     1.14     1.36   529.17   665.15
+ dbt_tas_reserve_blocks_templat ******* 14.1    14.82    17.33   385.69   616.54
+ compute_QP_energies                  1  7.0     0.32     0.38   601.48   602.78
+ trafo_to_k_and_nn               149572  8.0     0.49     0.61   600.92   602.26
+ dbt_tas_mm_2                   3205200 16.0     2.01     3.11   335.98   594.68
+ dbt_tas_create_split           ******* 16.0    13.26    15.49   459.11   533.63
+ dbt_tas_create_split_rows_or_c ******* 17.0    48.97    57.63   445.85   518.63
+ local_dbt_to_global_fm              91  8.0     0.34     0.36   515.37   515.39
+ dbt_tas_reshape                ******* 15.5    38.13    42.58   404.25   508.02
+ dbt_copy                       9830244 10.9    35.44    41.99   429.71   491.76
+ reshape_mm_compatible          8766482 14.9    62.15    73.21   422.47   485.07
+ compute_Sigma_x                      1  7.0     0.00     0.00   461.01   461.34
+ dbt_tas_replicate              8766482 14.9    85.59    89.66   377.81   456.94
+ dbcsr_desymmetrize_deep        1386343  8.1    13.68    16.41   379.14   442.60
+ mp_cart_sub                    1665069  9.8   432.59   432.87   432.59   432.87
+ mp_sum_dm                      1474676 10.0   364.10   421.07   364.10   421.07
+ dbt_tas_distribution_new       ******* 15.7   165.73   185.96   326.29   366.67
+ get_V_tr_R                          34  9.0     0.18     0.20   361.31   361.55
+ dbt_tas_reshape_buffer_obtain  ******* 16.5    42.64    46.27   254.11   354.88
+ dbm_add                        8766482 14.9   226.37   352.31   226.37   352.31
+ mult_W_with_Minv                    30  8.0     0.71     0.75   348.86   348.87
+ change_split                   ******* 15.4    20.36    24.52   283.78   336.82
+ mp_cart_create                 ******* 16.5   283.01   309.25   305.48   334.25
+ dbt_reshape                    6534727 11.8   206.82   236.02   281.35   321.61
+ add_ikp_to_rs                  *******  3.3   279.37   306.84   279.37   306.84
+ dbt_destroy                    ******* 10.6   263.59   301.07   267.68   305.10
+ fm_add_ikp_to_rs                278784  9.0   184.44   200.73   280.61   300.83
+ dbt_tas_mm_3T                  3767080 16.1     2.10     2.53   280.88   298.70
+ get_t_3c_int                   4841472  9.3     9.79    10.36   219.73   261.83
+ add_rs_to_ikp                  ******* -2.1   238.33   256.42   238.33   256.42
+ add_V_L                         737280 10.0     3.81   245.23     3.81   245.23
+ add_ikp_to_all_rs                11079  8.0     8.37     9.26   191.61   218.77
+ local_dbt_to_global_mat         201019  9.0     0.56     0.60   120.72   213.92
+ dbt_remap                       728170 11.0    63.58    80.29   183.70   207.70
+ trafo_rs_to_ikp                  12078  8.1     9.29     9.99   182.45   197.99
+ bs_env_release                       1  2.0     0.34     0.41   159.14   196.00
+ fm_MWM_R_t_to_local_tensor_W_R      30  8.0     0.05     0.06   185.75   185.79
+ local_matrix_to_global_matrix   201019 10.0     0.39     0.42    86.27   179.27
+ mp_comm_dup                    ******* 18.5   140.50   163.60   152.83   177.82
+ fm_trafo_rs_to_ikp              149572  9.0   100.59   105.58   165.77   175.43
+ kpoint_density_transform           117  7.0     0.39     0.41   146.73   146.78
+ comm_data                       201019 11.0     0.36     2.81    59.76   145.87
+ cp_fm_start_copy_general        808704  7.3     3.69     6.62   137.80   140.69
+ mp_waitall_2                    402038 12.0    56.71   140.56    56.71   140.56
+ mp_sum_i                       7836601 15.8   134.31   136.24   134.31   136.24
+ send_sizes_1                    335768 11.0     0.20     0.22   132.67   134.69
+ mp_comm_split_direct           ******* 18.0    94.24   110.07   100.59   117.25
+ mp_allgather_i                 1617408  8.3   110.81   116.74   110.81   116.74
+ dbt_tas_merge                  3205200 15.0    24.52    38.42    58.64   116.64
+ mp_alltoall_d11v               8473705 10.2    29.49   116.34    29.49   116.34
+ mp_comm_free                   ******* 15.5    96.09   113.00    96.09   113.00
+ mp_max_i                       ******* 11.4    39.74   106.36    39.74   106.36
+ dbt_permute_index              ******* 12.2    68.60    79.97    77.58    90.47
+ add_R                          *******  9.3    53.75    59.46    80.26    88.60
+ create_and_init_bs_env_for_gw        1  6.0     0.00     0.01    80.69    80.70
+ dbt_tas_reshape_buffer_fill    ******* 16.5    73.65    79.57    73.65    79.57
+ dbt_tas_create_new             ******* 15.2    63.80    76.72    63.80    76.72
+ destroy_t_1d                        98  8.0     0.48     0.58    73.32    75.99
+ dbt_tas_copy                   3709798 12.3    29.01    36.86    63.46    75.24
+ reshape_mm_template            1456340 15.5    44.90    53.14    65.92    74.32
+ dbt_align_index                ******* 11.4    11.25    13.02    64.58    74.20
+ get_Minv_Vtr_Minv_R                  1  8.0     0.03     0.03    66.89    66.92
+ dbt_distribution_new_expert    2127886 12.2    10.48    11.36    59.99    64.04
+ dbt_reserve_blocks_index       7797990 13.7     5.84     6.90    45.52    59.05
+ dbt_reserve_blocks_index_array 7392471 12.8     4.35     5.29    43.37    57.84
+ dbt_tas_mp_comm                5016069 13.1     6.43     7.23    50.58    56.91
+ rskp_transform                  276924  7.0     0.77    55.44     0.77    55.44
+ is_cell_in_index_to_cell       ******* -7.5    48.15    54.06    48.15    54.06
+ mp_isend_dv                    ******* 10.4     3.84    52.95     3.84    52.95
+ mp_alltoall_i11v               5700781 10.0    39.31    52.28    39.31    52.28
+ get_data                        335768 11.0    10.46    47.03    10.96    47.62
+ mp_cart_get                    ******* ****    36.26    43.24    36.26    43.24
+ mp_comm_size                   ******* -6.2    36.38    42.33    36.38    42.33
+ dbcsr_finalize                 5031804 10.7     8.26    10.11    34.92    41.94
+ mp_sum_dv                       164400  8.9    31.46    40.47    31.46    40.47
+ compute_3c_integrals                 1  7.0     0.14     0.15    39.63    39.63
+ dbt_communicate_buffer         6534727 12.8    32.13    39.19    32.13    39.19
+ build_3c_integrals                   1  8.0    24.14    25.77    37.39    38.92
+ dbt_copy_nocomm                 956937 11.0    15.50    27.61    22.29    38.19
+ mp_alltoall_i                  ******* 15.4    34.60    36.60    34.60    36.60
+ dbt_create_matrix               335768 10.0     1.89     1.98    32.83    36.44
+ dbt_create_new                 1063943 11.7     6.59     7.14    31.58    33.81
+ dbt_create_3c_R1_R2                 62  8.0     7.72     8.63    31.66    32.90
+ destroy_t_2d                        62  8.0     8.27    10.91    23.51    31.19
+ create_and_init_bs_env               1  5.0     0.00     0.00    31.06    31.06
+ compute_cfm_mo_coeff_kp_and_ei       1  6.0     0.01     0.01    31.05    31.05
+ transform_dmat                  134784  8.0     0.36    28.31     0.36    28.31
+ mp_comm_rank                   ******* -6.2    24.06    27.85    24.06    27.85
+ power                            22959  8.0     2.44     2.88    25.15    26.51
+ dbt_create_template            9003354  9.0    25.29    26.38    25.29    26.38
+ diag_complex                     22959  9.0    22.71    23.71    22.71    23.71
+ dbm_filter                     ******* 14.8    18.89    22.00    18.89    22.00
+ cp_cfm_heevd                      5957  8.0     0.00     0.00    20.12    20.63
+ cp_cfm_heevd_base                 5957  9.0    20.11    20.62    20.11    20.62
+ dbcsr_merge_all                1972884 11.5    12.44    14.48    17.06    20.32
+ dbt_pgrid_create_expert        2127889 13.2     2.49     2.67    16.77    20.06
+ mp_bcast_iv                    3235157  8.3    17.83    19.92    17.83    19.92
+ cp_cfm_geeig_canon                2452  7.0     0.01     0.01    19.76    19.83
+ rsmat_to_kp                       7356  7.3     0.05     0.06    19.18    19.29
+ dbcsr_filter_anytype           1522878 11.0     3.04     3.42    11.71    18.93
+ dbt_tas_reshape_communicate_bu ******* 16.5     5.30     6.10    15.93    18.25
+ dbt_tas_communicate_buffer     ******* 17.2    14.88    17.94    14.88    17.94
+ mp_waitany                       87724 11.5    16.72    17.22    16.72    17.22
+ dbt_create_2c_R                     98  8.0    15.00    16.43    15.66    17.08
+ send_sizes_2                    335768 11.0     0.20     0.24    15.56    16.32
+ heuristic_RI_regularization          1  7.0     0.00     0.00    15.72    15.72
+ trafo_V_xc_R_to_kp                   1  7.0     0.01     0.01    15.68    15.70
+ dbt_nd_mp_comm                 1063938 11.7     1.42     1.53    12.35    15.25
+ dos_pdos_ldos                        1  5.0     0.00     0.00    14.76    14.86
+ set_blocks                      201019 11.0     4.39     7.46     7.90    14.76
+ mp_isend_im2                   ******* 12.9     0.24    13.91     0.24    13.91
+ compute_proj_mo_on_kind           2452  6.0     0.02     0.03    13.86    13.87
+ transfer_rs2pw                     474  8.0     0.00     0.01    13.33    13.68
+ qs_rho_update_rho_low              118  5.0     0.00     0.00    13.66    13.66
+ calculate_rho_elec                 118  6.0     0.00     0.00    13.66    13.66
+ density_rs2pw                      118  7.0     0.00     0.00    13.09    13.43
+ transfer_rs2pw_500                 120  9.0     0.13     0.15    13.05    13.39
+ dbt_reserve_blocks_template     956937 12.0     1.03     1.74     6.79    13.32
+ mp_sum_l                       ******* 15.0    10.87    12.81    10.87    12.81
+ dbcsr_create_new               4704497  9.6     9.77    10.36    12.17    12.80
+ dbt_tas_reshape_get_coord      ******* 16.5    11.07    12.71    11.07    12.71
+ dbm_scale                      ******* 14.6     9.12    11.05     9.12    11.05
+ comm_size                       201019 11.0     0.20     0.23     9.81    10.31
+ dbt_tas_reshape_alltoall       ******* 16.5     4.73     5.64     8.69     9.92
+ hybrid_alltoall_any            1386343  9.1     3.73     3.87     7.13     9.73
+ dbcsr_iterator_start           ******* 10.6     7.26     7.58     9.21     9.60
+ abc_contract_xsmm               584911  9.0     9.03     9.32     9.03     9.32
+ copy_fm_to_dbcsr_bc             605651 10.1     2.51     2.83     8.32     8.95
+ qs_ks_update_qs_env                117  5.0     0.00     0.00     7.28     8.92
+ qs_ks_build_kohn_sham_matrix       120  7.0     0.03     0.04     6.88     8.56
+ fill_buffer                     201019 11.0     5.42     7.84     5.72     8.16
+ dbt_copy_matrix_to_tensor       335768 10.0     1.33     1.42     7.02     8.09
+ sum_up_and_integrate               120  8.0     0.00     0.00     6.38     8.06
+ integrate_v_rspace                 120  9.0     0.00     0.00     6.38     8.06
+ rebuild_ks_matrix                  117  6.0     0.00     0.00     5.84     7.47
+ dbt_tas_replicate_communicate_ 5867202 15.9     3.15     3.45     6.19     7.12
+ dbcsr_destroy                  4428823  9.3     3.59     3.89     6.63     7.06
+ dbcsr_work_create              3359227  9.9     4.19     4.66     6.24     7.06
+ mp_bcast_i                     ******* 18.0     5.86     7.03     5.86     7.03
+ setup_parallelization_Delta_R        1  7.0     0.00     0.00     7.00     7.00
+ compute_n_tensor_ops_Delta_R         1  8.0     1.53     2.95     6.97     6.97
+ dbcsr_iterator_stop            ******* 10.6     5.07     5.47     6.41     6.88
+ dbcsr_data_release             ******* 11.1     6.12     6.69     6.12     6.69
+ dbt_reserve_blocks_matrix_to_t  335768 11.0     0.81     0.85     5.22     6.22
+ mp_bcast_im                    1617408  8.3     4.46     6.18     4.46     6.18
+ potential_pw2rs                    120 10.0     0.00     0.00     6.06     6.06
+ mp_dims_create                 ******* 14.3     5.08     6.05     5.08     6.05
+ transfer_pw2rs                     481 11.0     0.00     0.00     5.91     5.92
+ dbcsr_data_new                 ******* 10.6     5.18     5.68     5.18     5.68
+ reserve_blocks                  335768 11.0     0.80     0.86     4.04     5.64
+ dbt_distribution_destroy       2127886 12.2     3.95     4.34     5.11     5.62
+ mp_sum_iv                           24  6.1     3.37     5.52     3.37     5.52
+ dbcsr_work_destroy_all         3359227 10.8     3.55     3.99     4.87     5.40
+ dbt_tas_replicate_alltoall     5867202 15.9     2.74     3.04     4.36     4.89
+ transfer_pw2rs_500                 121 12.0     0.12     0.16     4.80     4.81
+ dbt_tas_merge_communicate_buff 3205200 16.0     1.26     1.96     2.47     4.47
+ cp_cfm_geeig                      1053  7.0     0.00     0.01     3.84     4.29
+ mp_cart_rank                   ******* 15.9     3.70     4.12     3.70     4.12
+ kpoint_set_mo_occupation           117  7.0     0.06     0.07     3.38     4.10
+ quick_finalize                 1386343 10.1     1.98     2.55     3.16     4.09
+ dbt_buffer_get_index           ******* 16.8     3.01     3.63     3.01     3.63
+ dbcsr_reserve_blocks           1436182 12.1     1.99     2.86     2.56     3.61
+ copy_dbcsr_to_fm_bc             832495  8.8     1.81     2.03     3.27     3.49
+ dbt_tas_merge_alltoall         3205200 16.0     1.16     1.80     2.12     3.33
+ get_coord                       201019 11.0     1.71     1.84     2.70     3.30
+ dbcsr_set                      4080777 10.2     1.96     2.10     2.99     3.24
+ dbcsr_copy                      545557  9.8     0.72     1.01     2.45     3.09
+ build_2c_integrals                  34 10.0     0.08     1.47     0.24     3.06
+ alloc_block_3c                       1  9.0     0.23     0.25     2.88     2.93
+ write_kpoints_restart              117  5.0     0.00     0.11     2.84     2.86
+ dbcsr_reserve_all_blocks        806670 11.3     0.61     0.65     2.06     2.85
+ -------------------------------------------------------------------------------
+
+ The number of warnings for this run is : 1
+ 
+ -------------------------------------------------------------------------------
+  **** **** ******  **  PROGRAM ENDED AT                 2025-10-08 00:05:02.974
+ ***** ** ***  *** **   PROGRAM RAN ON                                 n2lcn0105
+ **    ****   ******    PROGRAM RAN BY                                  metdyn02
+ ***** **    ** ** **   PROGRAM PROCESS ID                                476684
+  **** **  *******  **  PROGRAM STOPPED IN /scratch/hpc-prf-metdyn/metdyn02_Remi
+                                           /14_hBN/aug-SZV-MOLOPT/GAPW/RIcutoff/
+                                           1e-6

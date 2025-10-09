@@ -18,10 +18,10 @@
  DBCSR| Split modifier for TAS multiplication algorithm                  1.0E+00 (U)
 
 
-  **** **** ******  **  PROGRAM STARTED AT               2025-10-06 13:39:23.050
+  **** **** ******  **  PROGRAM STARTED AT               2025-10-08 11:06:02.902
  ***** ** ***  *** **   PROGRAM STARTED ON                             n2lcn0136
  **    ****   ******    PROGRAM STARTED BY                              metdyn02
- ***** **    ** ** **   PROGRAM PROCESS ID                               3970163
+ ***** **    ** ** **   PROGRAM PROCESS ID                                174755
   **** **  *******  **  PROGRAM STARTED IN /scratch/hpc-prf-metdyn/metdyn02_Remi
                                            /14_hBN/TZV2P-MOLOPT
 
@@ -65,13 +65,13 @@
 
  MEMORY| system memory details [Kb]
  MEMORY|                        rank 0           min           max       average
- MEMORY| MemTotal           1056620468    1056620440    1056620516    1056620475
- MEMORY| MemFree            1030567132     884241964    1036227512    1011402383
- MEMORY| Buffers                 25712         22376        197612         71466
- MEMORY| Cached               14907652      11316252     150016088      32462110
- MEMORY| Slab                  3165412       1888340      14952272       5194937
- MEMORY| SReclaimable          1256020        342040       2468744       1571664
- MEMORY| MemLikelyFree      1046756516    1036587404    1047908180    1045507624
+ MEMORY| MemTotal           1056620468    1056620440    1056620516    1056620473
+ MEMORY| MemFree            1030357088    1026285744    1039156468    1030609894
+ MEMORY| Buffers                 25712         23720        197612         70008
+ MEMORY| Cached               15005544       9773428      18007280      14992309
+ MEMORY| Slab                  3208664       1742000       5955428       3592087
+ MEMORY| SReclaimable          1291332        372884       2507032       1374902
+ MEMORY| MemLikelyFree      1046679676    1045871396    1049432076    1047047114
 
 
  *** Fundamental physical constants (SI units) ***
@@ -2202,80 +2202,80 @@
 
   Step     Update method      Time    Convergence         Total energy    Change
   ------------------------------------------------------------------------------
-     1 NoMix/Diag. 0.10E+00    6.9     1.11209589       -12.9001991346 -1.29E+01
+     1 NoMix/Diag. 0.10E+00    6.4     1.11209589       -12.9001991346 -1.29E+01
      2 Broy./Diag. 0.10E+00    6.1     0.02391757       -11.1202750812  1.78E+00
-     3 Broy./Diag. 0.10E+00   11.2     0.16583838       -11.8367499320 -7.16E-01
-     4 Broy./Diag. 0.10E+00    7.3     0.01743051       -12.6074898995 -7.71E-01
-     5 Broy./Diag. 0.10E+00    6.6     0.11094538       -12.6909871472 -8.35E-02
+     3 Broy./Diag. 0.10E+00    7.7     0.16583838       -11.8367499320 -7.16E-01
+     4 Broy./Diag. 0.10E+00    6.6     0.01743051       -12.6074898995 -7.71E-01
+     5 Broy./Diag. 0.10E+00    6.3     0.11094538       -12.6909871472 -8.35E-02
      6 Broy./Diag. 0.10E+00    6.2     0.00300639       -12.7624767989 -7.15E-02
-     7 Broy./Diag. 0.10E+00    6.3     0.02812717       -12.8068009597 -4.43E-02
-     8 Broy./Diag. 0.10E+00    6.9     0.00315432       -12.8476690659 -4.09E-02
-     9 Broy./Diag. 0.10E+00    7.2     0.01964784       -12.8510704524 -3.40E-03
-    10 Broy./Diag. 0.10E+00    6.2     0.00072221       -12.8696745607 -1.86E-02
+     7 Broy./Diag. 0.10E+00    7.1     0.02812717       -12.8068009597 -4.43E-02
+     8 Broy./Diag. 0.10E+00    7.1     0.00315432       -12.8476690659 -4.09E-02
+     9 Broy./Diag. 0.10E+00    6.2     0.01964784       -12.8510704524 -3.40E-03
+    10 Broy./Diag. 0.10E+00    6.4     0.00072221       -12.8696745607 -1.86E-02
     11 Broy./Diag. 0.10E+00    6.3     0.00422605       -12.8660947531  3.58E-03
-    12 Broy./Diag. 0.10E+00    6.2     0.00044181       -12.8706116599 -4.52E-03
-    13 Broy./Diag. 0.10E+00    7.4     0.00329163       -12.8737841666 -3.17E-03
-    14 Broy./Diag. 0.10E+00    6.7     0.00018830       -12.8759369126 -2.15E-03
+    12 Broy./Diag. 0.10E+00    7.8     0.00044181       -12.8706116599 -4.52E-03
+    13 Broy./Diag. 0.10E+00    6.6     0.00329163       -12.8737841666 -3.17E-03
+    14 Broy./Diag. 0.10E+00    6.4     0.00018830       -12.8759369126 -2.15E-03
     15 Broy./Diag. 0.10E+00    6.2     0.00245686       -12.8752833178  6.54E-04
-    16 Broy./Diag. 0.10E+00    6.3     0.00027274       -12.8759910343 -7.08E-04
-    17 Broy./Diag. 0.10E+00    6.7     0.00092982       -12.8765757101 -5.85E-04
-    18 Broy./Diag. 0.10E+00    7.4     0.00056979       -12.8760476047  5.28E-04
-    19 Broy./Diag. 0.10E+00    7.1     0.00045334       -12.8755558583  4.92E-04
-    20 Broy./Diag. 0.10E+00    6.4     0.00039695       -12.8763402323 -7.84E-04
-    21 Broy./Diag. 0.10E+00    6.5     0.00010967       -12.8765598725 -2.20E-04
-    22 Broy./Diag. 0.10E+00    7.9     0.00016182       -12.8763657926  1.94E-04
-    23 Broy./Diag. 0.10E+00    6.5     0.00002597       -12.8762903294  7.55E-05
+    16 Broy./Diag. 0.10E+00    7.1     0.00027274       -12.8759910343 -7.08E-04
+    17 Broy./Diag. 0.10E+00    7.1     0.00092982       -12.8765757101 -5.85E-04
+    18 Broy./Diag. 0.10E+00    6.5     0.00056979       -12.8760476048  5.28E-04
+    19 Broy./Diag. 0.10E+00    6.3     0.00045334       -12.8755558583  4.92E-04
+    20 Broy./Diag. 0.10E+00    6.3     0.00039695       -12.8763402323 -7.84E-04
+    21 Broy./Diag. 0.10E+00    7.7     0.00010967       -12.8765598725 -2.20E-04
+    22 Broy./Diag. 0.10E+00    6.5     0.00016182       -12.8763657926  1.94E-04
+    23 Broy./Diag. 0.10E+00    6.4     0.00002597       -12.8762903294  7.55E-05
     24 Broy./Diag. 0.10E+00    6.3     0.00007944       -12.8764127745 -1.22E-04
-    25 Broy./Diag. 0.10E+00    6.4     0.00001805       -12.8764317437 -1.90E-05
-    26 Broy./Diag. 0.10E+00    7.2     0.00005379       -12.8763575035  7.42E-05
-    27 Broy./Diag. 0.10E+00    7.2     0.00000573       -12.8763454173  1.21E-05
-    28 Broy./Diag. 0.10E+00    6.4     0.00001679       -12.8763627856 -1.74E-05
-    29 Broy./Diag. 0.10E+00    6.4     0.00000819       -12.8763658759 -3.09E-06
-    30 Broy./Diag. 0.10E+00    6.5     0.00000178       -12.8763525987  1.33E-05
-    31 Broy./Diag. 0.10E+00    7.7     0.00000285       -12.8763476841  4.91E-06
-    32 Broy./Diag. 0.10E+00    6.5     0.00000113       -12.8763474189  2.65E-07
-    33 Broy./Diag. 0.10E+00   32.8     0.00000131       -12.8763509973 -3.58E-06
-    34 Broy./Diag. 0.10E+00    6.4     0.00000081       -12.8763521133 -1.12E-06
-    35 Broy./Diag. 0.10E+00    6.7     0.00000171       -12.8763514792  6.34E-07
-    36 Broy./Diag. 0.10E+00    7.7     0.00000043       -12.8763522053 -7.26E-07
-    37 Broy./Diag. 0.10E+00    6.5     0.00000046       -12.8763523980 -1.93E-07
-    38 Broy./Diag. 0.10E+00    6.5     0.00000035       -12.8763513407  1.06E-06
-    39 Broy./Diag. 0.10E+00    6.3     0.00000038       -12.8763510861  2.55E-07
-    40 Broy./Diag. 0.10E+00    7.6     0.00000015       -12.8763520335 -9.47E-07
-    41 Broy./Diag. 0.10E+00    6.7     0.00000030       -12.8763522075 -1.74E-07
+    25 Broy./Diag. 0.10E+00    7.3     0.00001805       -12.8764317437 -1.90E-05
+    26 Broy./Diag. 0.10E+00    7.1     0.00005379       -12.8763575035  7.42E-05
+    27 Broy./Diag. 0.10E+00    6.4     0.00000573       -12.8763454173  1.21E-05
+    28 Broy./Diag. 0.10E+00    6.5     0.00001679       -12.8763627856 -1.74E-05
+    29 Broy./Diag. 0.10E+00    6.6     0.00000819       -12.8763658759 -3.09E-06
+    30 Broy./Diag. 0.10E+00    7.8     0.00000178       -12.8763525987  1.33E-05
+    31 Broy./Diag. 0.10E+00    6.4     0.00000285       -12.8763476841  4.91E-06
+    32 Broy./Diag. 0.10E+00    6.4     0.00000113       -12.8763474189  2.65E-07
+    33 Broy./Diag. 0.10E+00    6.3     0.00000131       -12.8763509973 -3.58E-06
+    34 Broy./Diag. 0.10E+00    7.6     0.00000081       -12.8763521133 -1.12E-06
+    35 Broy./Diag. 0.10E+00    7.0     0.00000171       -12.8763514792  6.34E-07
+    36 Broy./Diag. 0.10E+00    6.3     0.00000043       -12.8763522053 -7.26E-07
+    37 Broy./Diag. 0.10E+00    6.4     0.00000046       -12.8763523980 -1.93E-07
+    38 Broy./Diag. 0.10E+00    6.9     0.00000035       -12.8763513407  1.06E-06
+    39 Broy./Diag. 0.10E+00    7.6     0.00000038       -12.8763510861  2.55E-07
+    40 Broy./Diag. 0.10E+00    6.6     0.00000015       -12.8763520335 -9.47E-07
+    41 Broy./Diag. 0.10E+00    6.4     0.00000030       -12.8763522075 -1.74E-07
     42 Broy./Diag. 0.10E+00    6.5     0.00000007       -12.8763519753  2.32E-07
-    43 Broy./Diag. 0.10E+00    6.4     0.00000016       -12.8763513552  6.20E-07
-    44 Broy./Diag. 0.10E+00    7.0     0.00000006       -12.8763509745  3.81E-07
-    45 Broy./Diag. 0.10E+00    7.6     0.00000014       -12.8763512950 -3.20E-07
-    46 Broy./Diag. 0.10E+00    6.4     0.00000009       -12.8763512470  4.79E-08
-    47 Broy./Diag. 0.10E+00    6.6     0.00000018       -12.8763511331  1.14E-07
-    48 Broy./Diag. 0.10E+00    6.5     0.00000008       -12.8763512869 -1.54E-07
-    49 Broy./Diag. 0.10E+00    7.9     0.00000016       -12.8763513853 -9.84E-08
-    50 Broy./Diag. 0.10E+00    6.7     0.00000014       -12.8763511807  2.05E-07
-    51 Broy./Diag. 0.10E+00    6.6     0.00000010       -12.8763510331  1.48E-07
-    52 Broy./Diag. 0.10E+00    6.5     0.00000005       -12.8763511102 -7.72E-08
-    53 Broy./Diag. 0.10E+00    7.1     0.00000012       -12.8763512296 -1.19E-07
-    54 Broy./Diag. 0.10E+00    7.4     0.00000002       -12.8763513237 -9.41E-08
-    55 Broy./Diag. 0.10E+00    6.6     0.00000004       -12.8763512154  1.08E-07
-    56 Broy./Diag. 0.10E+00    6.5     7.0940E-09       -12.8763511705  4.49E-08
-    57 Broy./Diag. 0.10E+00    6.8     0.00000003       -12.8763512099 -3.94E-08
-    58 Broy./Diag. 0.10E+00    7.6     8.7803E-09       -12.8763512071  2.81E-09
-    59 Broy./Diag. 0.10E+00    6.4     0.00000001       -12.8763511876  1.95E-08
-    60 Broy./Diag. 0.10E+00    6.4     0.00000002       -12.8763512097 -2.22E-08
-    61 Broy./Diag. 0.10E+00    6.4     5.9686E-09       -12.8763512464 -3.67E-08
-    62 Broy./Diag. 0.10E+00    7.6     3.6479E-09       -12.8763512359  1.05E-08
-    63 Broy./Diag. 0.10E+00    7.0     4.8195E-09       -12.8763512157  2.03E-08
-    64 Broy./Diag. 0.10E+00    6.7     1.5723E-09       -12.8763512035  1.22E-08
-    65 Broy./Diag. 0.10E+00    6.5     4.4544E-09       -12.8763512145 -1.11E-08
-    66 Broy./Diag. 0.10E+00    6.9     1.5615E-09       -12.8763512213 -6.78E-09
-    67 Broy./Diag. 0.10E+00    7.4     8.4941E-09       -12.8763512097  1.16E-08
-    68 Broy./Diag. 0.10E+00    6.4     2.7286E-09       -12.8763512060  3.73E-09
-    69 Broy./Diag. 0.10E+00    6.5     5.3816E-09       -12.8763512119 -5.92E-09
-    70 Broy./Diag. 0.10E+00    6.6     2.5505E-09       -12.8763512112  7.44E-10
-    71 Broy./Diag. 0.10E+00    7.9     1.2678E-09       -12.8763512053  5.86E-09
-    72 Broy./Diag. 0.10E+00    6.6     2.9153E-09       -12.8763512071 -1.80E-09
-    73 Broy./Diag. 0.10E+00    6.4     1.1000E-09       -12.8763512130 -5.90E-09
-    74 Broy./Diag. 0.10E+00    6.6     9.2387E-10       -12.8763512130 -1.75E-12
+    43 Broy./Diag. 0.10E+00    7.6     0.00000016       -12.8763513552  6.20E-07
+    44 Broy./Diag. 0.10E+00    6.6     0.00000006       -12.8763509745  3.81E-07
+    45 Broy./Diag. 0.10E+00    6.3     0.00000014       -12.8763512950 -3.20E-07
+    46 Broy./Diag. 0.10E+00    6.7     0.00000009       -12.8763512470  4.79E-08
+    47 Broy./Diag. 0.10E+00    7.1     0.00000018       -12.8763511331  1.14E-07
+    48 Broy./Diag. 0.10E+00    7.5     0.00000008       -12.8763512869 -1.54E-07
+    49 Broy./Diag. 0.10E+00    6.4     0.00000016       -12.8763513853 -9.84E-08
+    50 Broy./Diag. 0.10E+00    6.5     0.00000014       -12.8763511807  2.05E-07
+    51 Broy./Diag. 0.10E+00    6.5     0.00000010       -12.8763510331  1.48E-07
+    52 Broy./Diag. 0.10E+00    7.9     0.00000005       -12.8763511102 -7.72E-08
+    53 Broy./Diag. 0.10E+00    6.5     0.00000012       -12.8763512296 -1.19E-07
+    54 Broy./Diag. 0.10E+00    6.6     0.00000002       -12.8763513237 -9.41E-08
+    55 Broy./Diag. 0.10E+00    6.5     0.00000004       -12.8763512154  1.08E-07
+    56 Broy./Diag. 0.10E+00    7.6     7.0943E-09       -12.8763511705  4.49E-08
+    57 Broy./Diag. 0.10E+00    6.7     0.00000003       -12.8763512099 -3.94E-08
+    58 Broy./Diag. 0.10E+00    6.5     8.7797E-09       -12.8763512071  2.81E-09
+    59 Broy./Diag. 0.10E+00    6.3     0.00000001       -12.8763511876  1.95E-08
+    60 Broy./Diag. 0.10E+00    6.8     0.00000002       -12.8763512097 -2.22E-08
+    61 Broy./Diag. 0.10E+00    7.4     5.9689E-09       -12.8763512464 -3.67E-08
+    62 Broy./Diag. 0.10E+00    6.6     3.6480E-09       -12.8763512360  1.05E-08
+    63 Broy./Diag. 0.10E+00    6.4     4.8193E-09       -12.8763512157  2.03E-08
+    64 Broy./Diag. 0.10E+00    6.7     1.5722E-09       -12.8763512035  1.22E-08
+    65 Broy./Diag. 0.10E+00    7.9     4.4542E-09       -12.8763512145 -1.11E-08
+    66 Broy./Diag. 0.10E+00    6.6     1.5611E-09       -12.8763512213 -6.78E-09
+    67 Broy./Diag. 0.10E+00    6.4     8.4936E-09       -12.8763512097  1.16E-08
+    68 Broy./Diag. 0.10E+00    6.5     2.7270E-09       -12.8763512060  3.73E-09
+    69 Broy./Diag. 0.10E+00    7.4     5.3816E-09       -12.8763512119 -5.92E-09
+    70 Broy./Diag. 0.10E+00    7.2     2.5532E-09       -12.8763512112  7.44E-10
+    71 Broy./Diag. 0.10E+00    6.3     1.2678E-09       -12.8763512053  5.86E-09
+    72 Broy./Diag. 0.10E+00    6.4     2.9155E-09       -12.8763512071 -1.80E-09
+    73 Broy./Diag. 0.10E+00    6.8     1.1014E-09       -12.8763512130 -5.90E-09
+    74 Broy./Diag. 0.10E+00    7.8     9.2437E-10       -12.8763512130 -2.37E-12
 
   *** SCF run converged in    74 steps ***
 
@@ -2287,11 +2287,11 @@
 
   Overlap energy of the core charge distribution:               0.00000102720762
   Self energy of the core charge distribution:                -30.91005782344042
-  Core Hamiltonian energy:                                      9.50152673078899
-  Hartree energy:                                              12.21234014988010
-  Exchange-correlation energy:                                 -3.68016129744934
+  Core Hamiltonian energy:                                      9.50152673078869
+  Hartree energy:                                              12.21234014988015
+  Exchange-correlation energy:                                 -3.68016129744921
 
-  Total energy:                                               -12.87635121301306
+  Total energy:                                               -12.87635121301317
 
  !-----------------------------------------------------------------------------!
                      Mulliken Population Analysis
@@ -2341,7 +2341,7 @@
  Number of auxiliary Gaussian basis functions for χ, ε, W                    165
  Cutoff radius for the truncated Coulomb operator in Σ^x:                 51.1 Å
  Cutoff radius for the truncated Coulomb operator in RI metric:            7.0 Å
- Regularization parameter of RI                                          1.0E-02
+ Regularization parameter of RI                                          1.0E-01
  Regularization parameter of minimax grids                               1.0E-06
  Lattice sum size for V(k):                                                    3
   
@@ -2367,41 +2367,35 @@
  E-Range for minimax grid                                                  72.45
  Number of Padé parameters for analytic continuation:                         16
  
- Computed χ^R(iτ) for time point            1 / 30,      Execution time  425.8 s
- Computed χ^R(iτ) for time point            2 / 30,      Execution time  806.4 s
- Computed χ^R(iτ) for time point            3 / 30,      Execution time  865.5 s
- Computed χ^R(iτ) for time point            4 / 30,      Execution time  877.2 s
- Computed χ^R(iτ) for time point            5 / 30,      Execution time  880.5 s
- Computed χ^R(iτ) for time point            6 / 30,      Execution time  882.6 s
- Computed χ^R(iτ) for time point            7 / 30,      Execution time  885.3 s
- Computed χ^R(iτ) for time point            8 / 30,      Execution time  881.2 s
- Computed χ^R(iτ) for time point            9 / 30,      Execution time  873.6 s
- Computed χ^R(iτ) for time point           10 / 30,      Execution time  866.3 s
- Computed χ^R(iτ) for time point           11 / 30,      Execution time  858.8 s
- Computed χ^R(iτ) for time point           12 / 30,      Execution time  839.0 s
- Computed χ^R(iτ) for time point           13 / 30,      Execution time  836.5 s
- Computed χ^R(iτ) for time point           14 / 30,      Execution time  829.0 s
- Computed χ^R(iτ) for time point           15 / 30,      Execution time  815.2 s
- Computed χ^R(iτ) for time point           16 / 30,      Execution time  794.0 s
- Computed χ^R(iτ) for time point           17 / 30,      Execution time  767.2 s
- Computed χ^R(iτ) for time point           18 / 30,      Execution time  740.7 s
- Computed χ^R(iτ) for time point           19 / 30,      Execution time  687.6 s
- Computed χ^R(iτ) for time point           20 / 30,      Execution time  627.6 s
- Computed χ^R(iτ) for time point           21 / 30,      Execution time  556.4 s
- Computed χ^R(iτ) for time point           22 / 30,      Execution time  616.6 s
- Computed χ^R(iτ) for time point           23 / 30,      Execution time  416.6 s
- Computed χ^R(iτ) for time point           24 / 30,      Execution time   24.1 s
- Computed χ^R(iτ) for time point           25 / 30,      Execution time   16.9 s
- Computed χ^R(iτ) for time point           26 / 30,      Execution time   16.9 s
- Computed χ^R(iτ) for time point           27 / 30,      Execution time   17.7 s
- Computed χ^R(iτ) for time point           28 / 30,      Execution time   16.3 s
- Computed χ^R(iτ) for time point           29 / 30,      Execution time   17.7 s
- Computed χ^R(iτ) for time point           30 / 30,      Execution time   17.4 s
- Computed V_PQ(k),                                       Execution time31127.7 s
+ Computed χ^R(iτ) for time point            1 / 30,      Execution time  418.7 s
+ Computed χ^R(iτ) for time point            2 / 30,      Execution time  835.8 s
+ Computed χ^R(iτ) for time point            3 / 30,      Execution time  895.4 s
+ Computed χ^R(iτ) for time point            4 / 30,      Execution time  909.2 s
+ Computed χ^R(iτ) for time point            5 / 30,      Execution time  915.5 s
+ Computed χ^R(iτ) for time point            6 / 30,      Execution time  916.1 s
+ Computed χ^R(iτ) for time point            7 / 30,      Execution time  916.7 s
+ Computed χ^R(iτ) for time point            8 / 30,      Execution time  909.2 s
+ Computed χ^R(iτ) for time point            9 / 30,      Execution time  901.7 s
+ Computed χ^R(iτ) for time point           10 / 30,      Execution time  900.6 s
+ Computed χ^R(iτ) for time point           11 / 30,      Execution time  876.3 s
+ Computed χ^R(iτ) for time point           12 / 30,      Execution time  862.1 s
+ Computed χ^R(iτ) for time point           13 / 30,      Execution time  845.3 s
+ Computed χ^R(iτ) for time point           14 / 30,      Execution time  821.1 s
+ Computed χ^R(iτ) for time point           15 / 30,      Execution time  800.7 s
+ Computed χ^R(iτ) for time point           16 / 30,      Execution time  777.8 s
+ Computed χ^R(iτ) for time point           17 / 30,      Execution time  756.8 s
+ Computed χ^R(iτ) for time point           18 / 30,      Execution time  721.1 s
+ Computed χ^R(iτ) for time point           19 / 30,      Execution time  678.8 s
+ Computed χ^R(iτ) for time point           20 / 30,      Execution time  618.0 s
+ Computed χ^R(iτ) for time point           21 / 30,      Execution time  550.2 s
+ Computed χ^R(iτ) for time point           22 / 30,      Execution time  607.7 s
+ Computed χ^R(iτ) for time point           23 / 30,      Execution time  411.6 s
+ Computed χ^R(iτ) for time point           24 / 30,      Execution time   23.1 s
+ Computed χ^R(iτ) for time point           25 / 30,      Execution time   17.0 s
+ Computed χ^R(iτ) for time point           26 / 30,      Execution time   17.7 s
+ Computed χ^R(iτ) for time point           27 / 30,      Execution time   16.1 s
+ Computed χ^R(iτ) for time point           28 / 30,      Execution time   17.6 s
+ Computed χ^R(iτ) for time point           29 / 30,      Execution time   17.1 s
+ Computed χ^R(iτ) for time point           30 / 30,      Execution time   16.5 s
+ Computed V_PQ(k),                                       Execution time31106.2 s
  
- Computed W_PQ(k,iω) for all k and τ,                    Execution time64053.4 s
- 
- Computed Σ^x,                                           Execution time 2027.4 s
- 
- Computed Σ^c(iτ) for time point            1 / 30,      Execution time  552.8 s
- Computed Σ^c(iτ) for time point            2 / 30,      Execution time  405.8 s
