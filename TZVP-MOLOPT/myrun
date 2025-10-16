@@ -1,19 +1,23 @@
 #!/bin/bash
-#SBATCH -t 72:00:00
+#SBATCH -t 24:00:00
 #SBATCH --ntasks-per-node=32
-#SBATCH -c 4
+#SBATCH -c 6
 #SBATCH -N 8
 #SBATCH -J hBN_test_naTZVP
-#SBATCH --account=hpc-prf-rqsued
+#SBATCH --account=hpc-prf-metdyn
 #SBATCH -p largemem
 ##SBATCH -q express
 
-export OMP_NUM_THREADS=4
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export OMP_PLACES=cores
 export OMP_PROC_BIND=true
 
-module purge
-module load chem/CP2K/2025.2-foss-2024a-gcc-openmpi-openblas
+module reset
+module load chem/CP2K/2025.2-foss-2025a-gcc-openmpi-aocl
+
+export CP2K_PATH=/pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k_Otus/01_CP2K/cp2k-2025.2
+#source ${CP2K_PATH}/tools/toolchain/install/setup
+
 
 rm cp2k.out
-srun /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/newcp2k/cp2k/exe/local/cp2k.psmp *inp >> cp2k.out
+srun ${CP2K_PATH}/exe/local/cp2k.psmp *inp >> cp2k.out

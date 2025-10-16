@@ -131,3 +131,6 @@ cpu-bind=MASK - n2lcn0142, task 92  4 [3121387]: mask |--------|--------||------
 cpu-bind=MASK - n2lcn0142, task 93  5 [3121388]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------|  set
 cpu-bind=MASK - n2lcn0142, task 94  6 [3121389]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------|  set
 cpu-bind=MASK - n2lcn0142, task 95  7 [3121390]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB|  set
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 27381984.0 ON n2lcn0104 CANCELLED AT 2025-10-10T23:08:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 27381984 ON n2lcn0104 CANCELLED AT 2025-10-10T23:08:17 DUE TO TIME LIMIT ***
